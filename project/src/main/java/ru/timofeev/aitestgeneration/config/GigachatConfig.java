@@ -8,8 +8,10 @@ public class GigachatConfig {
 
     @Value("gigachat.client.id")
     public String GIGACHAT_CLIENT_ID;
+
     @Value("gigachat.client.scope")
-    public String GIGACGAT_API_SCOPE;
+    public String GIGACHAT_API_SCOPE;
+
     @Value("gigachat.client.secret")
     public String GIGACHAT_CLIENT_SECRET;
 
